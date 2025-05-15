@@ -10,28 +10,6 @@
     --warning-color: #fd7e14;
     --info-color: #17a2b8;
 }
-  .whatsapp-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
-      text-align: center;
-      font-size: 30px;
-      z-index: 1000;
-      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-decoration: none;
-    }
-
-    .whatsapp-float:hover {
-      background-color: #1ebea5;
-    }
 
 * {
     margin: 0;
@@ -473,9 +451,30 @@ img {
 }
 
 .skill-item {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
+  .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      font-size: 30px;
+      z-index: 1000;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+    }
 
+    .whatsapp-float:hover {
+      background-color: #1ebea5;
+    }
 .skill-info {
     display: flex;
     justify-content: space-between;
